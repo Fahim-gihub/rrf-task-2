@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+button {
+    cursor: pointer;
+}
+
+@theme {
+    --color-cream: #FFF9F3;
+    --color-cream-300: #FCF2DE;
+    --color-midnight-blue: #3A30BA;
+    --color-dark-blue: #17134A;
+    --color-navy-blue: #45426E;
+    --color-navy-blue-700: #030521;
+    --color-light-blue: #8C3BFC;
+    --color-gray: #080A471A;
+    --color-pink: #DE238E;
+    --color-light-gray: #FDEFF7;
+    --color-lavender-gray: #F6F6FC;
+    --color-white-10: #FFFFFF1A;
+    --color-white-200: #FFFFFFCC;
+    --color-white-500: #D1D0DB;
+    --color-white-600: #A2A1B7;
+    --color-Mint-Cream: #F1FAF7;
+    --color-lavender-mist: #EEEBFA;
+    --color-purple: #8C3BFC;
+    --color-sky-blue: #27A6FE;
+}
+
+
+.heading-style {
+    @apply font-bold text-6xl text-dark-blue leading-15;
+}
+
+.footer-font {
+    @apply text-white-600 leading-6 hover:text-white;
+}
+
+.footer-font-1 {
+    @apply font-semibold text-white leading-5.5 mb-2 uppercase;
+}
+
+
+/* .footer-bg {
+    background-image: url(../img/footer-bg.svg);
+} */
+
+
+
+.gradiant {
+    background-image: linear-gradient(130deg, rgba(155, 144, 196, 0.1) 0%, rgba(62, 67, 127, 0.2) 100%);
+}
+
+.dorik-image-filter {
+    filter: grayscale(100%) sepia(0%) blur(0px) brightness(100%) hue-rotate(0deg) saturate(100%) opacity(100%) contrast(100%) invert(0%);
+}
+
